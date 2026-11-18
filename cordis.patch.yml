@@ -1,0 +1,7 @@
+# dsh-nav-shortcuts — DSH bundle patch
+#
+# Mounts the plugin into the profile tree. The Host half is inert; the browser
+# half (declared by dsh.client in package.json) registers the shortcuts.
+- insert:
+    - id: dsh-nav-shortcuts
+      name: dsh-nav-shortcuts

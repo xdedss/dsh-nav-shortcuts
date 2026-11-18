@@ -1,0 +1,16 @@
+# Dependencies (none are vendored, but keep installs out of history)
+node_modules/
+
+# Editors and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs, coverage, packed tarballs
+*.log
+coverage/
+*.tgz
+
+# Local DSH profile links and runtime state
+.dshw-*.json
